@@ -1,4 +1,5 @@
 import time, os
+print('By using this you agree I am not responsible for anything')
 input('Target: ')
 input('Port: ')
 input('Seconds: ')
