@@ -10,6 +10,6 @@ def main():
 try:
   if __init__ == "__main__":
     main()
-except:
+except KeyboardInterrupt:
   print("do not try to exit!")
   main()
