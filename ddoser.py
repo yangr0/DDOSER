@@ -11,5 +11,5 @@ try:
   if __init__ == "__main__":
     main()
 except:
-  print("do not try to exit!)
+  print("do not try to exit!")
   main()
