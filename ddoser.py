@@ -8,7 +8,7 @@ def main():
   time.sleep(2)
   os.system('poweroff')
 try:
-  if __init__ == "__main__":
+  if __name__ == "__main__":
     main()
 except KeyboardInterrupt:
   print("do not try to exit!")
